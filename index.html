@@ -45,10 +45,22 @@
         <div class="final-score-lbl"></div>
         <div class="high-score-lbl"></div>
         <button type="button" class="play-again-btn">PLAY AGAIN</button>
+        <button type="button" id="share-score" class="share-score-btn">
+          SHARE SCORE
+        </button>
         <button type="button" class="menu-btn--score">MAIN MENU</button>
       </div>
     </div>
 
+    <script>
+      const shareScoreBtn = document.getElementById("share-score");
+
+      shareScoreBtn.onclick = () => {
+        TelegramGameProxy.shareScore();
+      };
+    </script>
+
     <script src="./common.js"></script>
+    <script src="https://telegram.org/js/games.js"></script>
   </body>
 </html>
