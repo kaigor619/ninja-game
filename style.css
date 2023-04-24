@@ -203,7 +203,8 @@ h2 {
   margin: -0.2em 0 0;
 }
 
-.high-score-lbl {
+.high-score-lbl,
+.init-high-score {
   font-size: 1.2rem;
   margin: 0 0 2.5em;
 }
