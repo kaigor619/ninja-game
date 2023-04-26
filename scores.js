@@ -1,4 +1,4 @@
-const isLocalhost = true;
+const isLocalhost = false;
 
 window.MicroGame = {
   getHighScore: () => {
