@@ -9,7 +9,7 @@ window.MicroGame = {
     return fetch(
       isLocalhost
         ? "http://localhost:3000/score"
-        : "https://ninja-pb6x.onrender.com/score",
+        : "https://ninja-gwr0.onrender.com/score",
       {
         method: "GET",
         headers: {
@@ -27,7 +27,7 @@ window.MicroGame = {
     return fetch(
       isLocalhost
         ? "http://localhost:3000/score"
-        : "https://ninja-pb6x.onrender.com/score",
+        : "https://ninja-gwr0.onrender.com/score",
       {
         method: "POST",
         body: JSON.stringify({ score }),
